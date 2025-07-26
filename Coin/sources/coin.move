@@ -11,7 +11,7 @@ fun init(witness: MIA, ctx: &mut TxContext) { // Module initializer, called on p
         8, // Number of decimals for the coin
         b"MI", // Symbol for the coin
         b"Mia", // Name of the coin
-        b"Mia on Sui", // Description of the coin
+        b"Mia's on sui, here's proof!", // Description of the coin
         option::none(), // No icon URL provided
         ctx // Transaction context
     );

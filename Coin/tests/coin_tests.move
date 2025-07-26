@@ -3,8 +3,7 @@ module coin::mia_test; // Define the test module for mia
 
 use coin::mia::{Self, MIA}; // Import the mia module and MIA struct
 use sui::coin::{TreasuryCap}; // Import TreasuryCap from sui::coin
-use sui::test_scenario::{Self, next_tx, ctx};
-use coin::mia; // Import test scenario utilities
+use sui::test_scenario::{Self, next_tx, ctx}; // Import test scenario utilities
 
 #[test] // Mark this function as a test
 fun init_and_mint() { // Test function to initialize and mint MIA coins
